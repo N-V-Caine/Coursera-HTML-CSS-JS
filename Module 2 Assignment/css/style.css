@@ -1,0 +1,72 @@
+*{
+box-sizing: border-box;
+font-family: "Trebuchet MS", sans-serif;
+}
+
+.row {
+	width: 100%;
+}
+
+h1{
+	font-size: 1.75em;
+	text-align: center;
+}
+
+section {
+	float: left;
+	position: relative;
+}
+
+h2 {
+	position:absolute;
+	top: 0px;
+	right: 0px;
+	border: 1px solid black;
+	font-size: 1.25em;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+h2.coffee {
+	background-color: #5e4af0
+}
+h2.chicken {
+	background-color: #bf25e6
+}
+h2.cheetos {
+	background-color: #fa397d
+}
+
+ p{
+ 	border: 1px solid black;
+	background-color: #eec7ff;
+	margin-top: 0px;
+	padding: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+ }
+/*** desktop view ***/
+@media (min-width: 992px){
+.col-lg-4 {
+	width: 33.33%;
+}
+}
+
+/*** tablet view ***/
+@media (min-width: 768px) and (max-width:991px) {
+.col-md-6 {
+	width: 50%;
+}
+.col-md-12{
+	width: 100%;
+}
+}
+
+/*** mobile view ***/
+@media (max-width: 767px){
+.col-sm-12 {
+	width: 100%;
+}
+}
