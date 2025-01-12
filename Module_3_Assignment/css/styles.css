@@ -1,0 +1,123 @@
+.sour-gummy {
+  font-family: "Sour Gummy", serif;;
+  font-weight: 500;
+}
+a:link {
+  text-decoration: none!important;
+}
+
+/***** NAVBAR *****/
+.navbar {
+   background: lightgreen;
+   border-bottom: 3px solid darkcyan;
+   --bs-navbar-hover-color: #004545;
+   --bs-navbar-active-color: darkcyan;
+   --bs-navbar-brand-hover-color: #004545;
+   --bs-navbar-toggler-focus-width: 0
+}
+.navbar-header {
+  position: relative;
+  width: 100%;
+}
+.navbar-brand {
+  color: #004545;
+  font-weight: 600;
+}
+.navbar-alt {
+  color: #004545;
+  border: 3px solid #004545;
+  padding: 5px;
+  background: rgba(0, 139, 139, .7);
+}
+.navbar-alt:hover, .navbar-alt:focus {
+  background: rgba(0, 139, 139, .4);
+  border: 3px solid white;
+  color: white;
+}
+.navbar-header button {
+  background: palegreen;
+  border: solid #004545;
+  border-radius: 5px; 
+}
+.navbar-toggler:hover, .navbar-toggler:focus {
+  background: rgba(0, 139, 139, .4);
+}
+.icon-bar {
+  width: 20px;
+  margin: 4px auto;
+  border: none;
+  height: 3px;
+  background: darkcyan;
+  opacity: .8;
+  border-radius: 10px;
+  text-align: center;
+}
+.navbar-toggler {
+  position: absolute; 
+  right: 0;
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  padding: 3px 5px;
+}
+div #nav-list a {
+  text-decoration: none;
+  color: #004545;
+}
+div #nav-list div {
+  width: 100%;
+  border-top: 3px solid darkcyan;
+}
+#nav-list div:hover {
+  background: rgba(0, 139, 139, .4);
+}
+div#navbar-collapse {
+  text-align: center;
+  background-color: rgba(0, 139, 139, .2);
+  width: 100%;
+  margin-bottom: -12px;
+  margin-top: 10px;
+  padding: 0px;
+  --bs-gutter-x: 0rem;
+}
+/***** NAVBAR END *****/
+
+/***** MAIN BODY *****/
+h1 {
+  color: #004545;
+  font-weight: 600;
+}
+.section_box {
+  background: palegreen;
+  margin-bottom: 30px;
+}
+.section_heading{
+  padding-top: 10px;
+  color: darkcyan;
+}
+.section_text {
+  font-weight: 300;
+  padding: 0 20px 30px 20px;
+  color: #004545;
+  margin-bottom: 0px;
+}
+/***** ALT SOLUTIONS *****/
+.section_box_alt {
+  background: palegreen;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.section-button {
+  color: #004545;
+  border: 3px solid #004545;
+  padding: 5px;
+  background: rgba(0, 139, 139, .7);
+}
+.section-button:hover, .navbar-alt:focus {
+  background: rgba(0, 139, 139, .4);
+  border: 3px solid white;
+  color: white;
+}
